@@ -63,7 +63,45 @@ a:active {
 <h1 style="font-size:40px;color:red;align:middle;background-color:black;opacity:70%;">ARYA04 PROJECT COMING SOON</h1>
 <img src="arya04channel.jpg" alt="logo arya04" width="120' height="80"
 </center>
-<h2>ARYA04 NEXT PROJECT COMING SOON</h2>
+<h2>ARYA04 TELAH HADIR</h2>
+<body>
+	<form>
+		<label for="text-input">Input Teks:</label>
+		<input type="text" id="text-input" name="text-input">
+		<button type="submit">Kirim</button>
+	</form>
+	<div id="output"></div>
+
+	<script>
+		// Seleksi form dan elemen output
+		const form = document.querySelector('form');
+		const output = document.querySelector('#output');
+
+		// Mengambil nilai input terakhir dari localStorage
+		let previousValue = localStorage.getItem('text-input') || "";
+
+		// Menetapkan nilai input terakhir pada elemen input teks
+		document.querySelector('#text-input').value = previousValue;
+
+		// Tambahkan event listener ketika form disubmit
+		form.addEventListener('submit', function(event) {
+			event.preventDefault(); // Mencegah pengiriman form
+
+			// Ambil nilai dari input teks
+			const textValue = document.querySelector('#text-input').value;
+
+			// Tampilkan nilai input teks pada elemen output
+			output.textContent = textValue;
+
+			// Simpan nilai input ke localStorage
+			localStorage.setItem('text-input', textValue);
+
+			// Mengosongkan nilai input
+			document.querySelector('#text-input').value = "";
+		});
+	</script>
+
+
 
 </body>
 </html>
