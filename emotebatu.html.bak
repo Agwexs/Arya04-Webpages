@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arya04 Official Website</title>
+  <link rel="icon" type="image/x-icon" href="arya04channel.jpg">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+li {
+ float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:14px 50px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: lightred;
+  opacity: 70%;
+}
+.active {
+  background-color:grey;
+  opacity: 90%;
+}
+body {
+  background-image: url('bgaming.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+p1, h1, h2 {
+  color: white
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: darkblue;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
+</style>
+
+<ul>
+  <li><a class="active" href="index.html">Beranda</a></li>
+  <li><a href="arya04community.html">A04 COMMUNITY</a></li>
+  <li><a href="arya04project.html">A04 PROJECT</a></li>
+  <li><a href="tentangdiriku.html">A04 ME</a></li>
+</ul>
+
+<center>
+<h1 style="font-size:40px;color:red;align:middle;background-color:black;opacity:70%;">SELAMAT DATANG DI ARYA04 WEBPAGES</h1>
+<img src="arya04channel.jpg" alt="logo arya04" width="120' height="80"
+</center>
+<h2>FOLLOW DAN SUBSCRIBE YA TEMAN TEMAN :)</h2>
+<p1 style="font-size:20px;"> YOUTUBE: <a href="https://www.youtube.com/channel/UCGvEQZVqCEeIerRCnhu-2wQ">ARYA04 YOUTUBE CHANNEL</a></p1>
+<p1 style="font-size:20px;"> FACEBOOK: <a href="https://www.facebook.com/Arya04-114062269991047/?ref=pages_you_manage">ARYA04 FACEBOOK PAGE</a></p1>
+<p1 style="font-size:20px;"> INSTAGRAM: <a href="https://www.instagram.com/aryaawcksn04/?hl=id">ARYA04 INSTAGRAM</a></p1>
+<p1> <br>*Untuk twitter,tiktok dll akan segera dibuat jadi tunggu saja ya <br></p1>
+
+<h2 style="font-size:22px;" >DONASI TERBUKA UNTUK TEMAN TEMAN YANG INGIN BERDONASI KE CHANNEL INI</h2>
+<p1 style="font-size:20px;"> TRAKTEER: <a href="https://trakteer.id/arya04-e5ipt/tip">TRAKTEER ARYA04</a></p1><p1 style="font-size:20px;"> SAWERIA: <a href="https://saweria.co/ARYA04">SAWERIA ARYA04</a></p1>
+<p1><br>*30% donasi akan diberikan kepada yang membutuhkan</br><p1>
+
+<h1 style="font-size:23px;">LIHAT JUGA VIDEO TERAKHIRKU DI YOUTUBE &#128512;</h1>
+<iframe width="880" height="520" src="https://www.youtube.com/embed/741LkUle-_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</body>
+</html>
