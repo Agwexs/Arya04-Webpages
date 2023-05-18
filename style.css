@@ -1,0 +1,162 @@
+.container{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  display: flex;
+}
+#judul{
+    font-size:40px;
+    color:red;
+    text-align:center;
+    background-color:black;
+    opacity:70%;
+}
+.menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:14px 50px;
+  text-decoration: none;
+}
+#judul{
+    text-align: center;
+}
+.round-image img {
+    border-radius: 50%;
+    text-align: center;
+}
+  
+.menu a:hover:not(.active) {
+  background-color: lightred;
+  opacity: 70%;
+}
+.active {
+  background-color:grey;
+  opacity: 90%;
+}
+body {
+  background-image: url('bgaming.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  margin-bottom:45px;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+
+}
+.support{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+.videowrap{
+    flex-wrap: wrap;
+}
+.ghostdiv{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  height: 0;
+}
+.video{
+    float: left;
+    justify-content: center;
+    border-style: solid;
+    border-color: aliceblue;
+    position: relative;
+    width: 360px; /* Atur lebar sesuai kebutuhan */
+    height: 180px; /* Atur tinggi sesuai kebutuhan */
+    margin-bottom: 45px;
+}
+.video h1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 10px;
+  }
+  .video2{
+    float: left;
+    justify-content: center;
+    position: relative;
+    width: 112px; /* Atur lebar sesuai kebutuhan */
+    height: 180px; /* Atur tinggi sesuai kebutuhan */
+    margin-bottom: 45px;
+}
+.video2 h1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+.menu a:link {
+  color: blue;
+}
+.menu a:visited {
+  color: darkblue;
+}
+.menu a:hover {
+  color: red;
+}
+.menu a:active {
+  color: yellow;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: darkblue;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+.footer {
+    position: fixed;
+    background-color: #2a9ae5;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    left: 0;
+    height: 20px; /* Sesuaikan dengan tinggi footer */
+  
+    
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+p.copyright {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+  
